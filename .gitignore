@@ -1,14 +1,69 @@
-# Ignore Python cache
+# ==========================
+# Python cache and artifacts
+# ==========================
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*.tmp
 
-# Ignore VS Code settings
-.vscode/
+# Byte-compiled / optimized / DLL files
+*.so
 
-# Ignore Jupyter notebooks checkpoints
-.ipynb_checkpoints/
-
-# Ignore environment folders
+# ==========================
+# Virtual environments
+# ==========================
 .env/
 .venv/
+env/
+venv/
+ENV/
+conda/
 .conda/
+
+# ==========================
+# VS Code settings
+# ==========================
+.vscode/
+
+# ==========================
+# Jupyter Notebook
+# ==========================
+.ipynb_checkpoints/
+
+# ==========================
+# Logs
+# ==========================
+*.log
+
+# ==========================
+# Databases
+# ==========================
+*.db
+*.sqlite
+*.sqlite3
+
+# ==========================
+# OS Generated Files
+# ==========================
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# ==========================
+# Other common folders
+# ==========================
+
+# Local settings or secrets
+*.env.local
+secret.json
+
+# Build directories
+build/
+dist/
